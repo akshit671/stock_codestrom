@@ -28,7 +28,7 @@ export const useStore = create<StoreState>()(
       setConnectionStatus: (status) => set({ isConnected: status }),
     }),
     {
-      name: 'tradesim',
+      name: 'tradePro',
       partialize: (state) => ({
         // only persist these fields
         user: state.user,
